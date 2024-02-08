@@ -10,6 +10,7 @@ check_character('happy birthday', 2) should return "letter"
 check_character('happy birthday', 5) should return "whitespace"  
 check_character('happy birthday 2 you', 15) should return "digit"  
 check_character('happy birthday!', 14) should return "unknown"
+yay
 '''
 
 def check_character(word, index):
